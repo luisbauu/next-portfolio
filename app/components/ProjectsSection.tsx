@@ -21,6 +21,7 @@ export const ProjectsSection = () => {
         title="Auto Aisis Evaluator"
         description="A chrome extension to quickly fill up AISIS Prof evaluations. To be released at the end of the semester."
         technologies={["HTML", "Javascript", "Chrome Extension API"]}
+        nolink={true}
       />
       <Projects
         link="https://coa-maker.vercel.app/"
