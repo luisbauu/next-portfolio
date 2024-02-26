@@ -5,6 +5,7 @@ import blueballot from "@/public/blueballot.jpeg";
 import pitime from "@/public/pitime.jpeg";
 import southbound from "@/public/southbound.png";
 import spaceintern from "@/public/spaceintern.png";
+import autoaisiseval from "@/public/auto-aisis-eval.png";
 import Link from "next/link";
 
 export const ProjectsSection = () => {
@@ -14,6 +15,13 @@ export const ProjectsSection = () => {
       id="projects"
     >
       <div className="pb-4 sm:pb-2 sm:pl-4 text-3xl mt-10">Projects</div>
+      <Projects
+        link=""
+        image={autoaisiseval}
+        title="Auto Aisis Evaluator"
+        description="A chrome extension to quickly fill up AISIS Prof evaluations. To be released at the end of the semester."
+        technologies={["HTML", "Javascript", "Chrome Extension API"]}
+      />
       <Projects
         link="https://coa-maker.vercel.app/"
         image={coamaker}

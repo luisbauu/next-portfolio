@@ -9,6 +9,15 @@ export const WorkSection = () => {
     >
       <div className="pb-4 sm:pb-2 sm:pl-4 text-3xl mt-10">Experience</div>
       <PlaceWorked
+        link="https://thinkingmachin.es/"
+        date="Jan 2024 - PRESENT"
+        position="Software Engineer I"
+        company="Thinking Machines Data Science"
+        description="Working on client related projects"
+        technologies={["React", "Java", "Bash", "GCP"]}
+      />
+
+      <PlaceWorked
         link="https://theguidon.com/1112/main/"
         date="2022 ─ PRESENT"
         position="Digital Development Staffer"
