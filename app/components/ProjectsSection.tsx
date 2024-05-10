@@ -16,7 +16,7 @@ export const ProjectsSection = () => {
     >
       <div className="pb-4 sm:pb-2 sm:pl-4 text-3xl mt-10">Projects</div>
       <Projects
-        link=""
+        link="https://chromewebstore.google.com/detail/auto-aisis-evaluator/hjomidphapmkncmknofkojbokmdkdalk"
         image={autoaisiseval}
         title="Auto Aisis Evaluator"
         description="A chrome extension to quickly fill up AISIS Prof evaluations. To be released at the end of the semester."
