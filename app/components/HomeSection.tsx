@@ -25,8 +25,12 @@ export const HomeSection = () => {
       <div className="text-justify text-lg tracking-tight mb-7">
         I am a fresh graduate from{" "}
         <span className="text-[#031090]">the Ateneo de Manila University</span>{" "}
-        and I majored in Computer Science. Currently I am a L0.5 Software
-        Engineer a.k.a <b>Aspiring Software Engineer</b>.
+        and I majored in Computer Science, Digital Game Design, and Development.
+        I am currently an L1 Software Engineer for{" "}
+        <Link className="text-[#dd543d]" href={"https://thinkingmachin.es/"}>
+          Thinking Machines
+        </Link>
+        !
       </div>
       <div className="flex flex-row gap-5">
         <Link
