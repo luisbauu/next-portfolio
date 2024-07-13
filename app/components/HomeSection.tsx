@@ -23,10 +23,10 @@ export const HomeSection = () => {
         hi, I&apos;m Luis <span className="wave ml-1">👋</span>
       </div>
       <div className="text-justify text-lg tracking-tight mb-7">
-        I am a fresh graduate from{" "}
+        I am a graduate from{" "}
         <span className="text-[#031090]">the Ateneo de Manila University</span>{" "}
         and I majored in Computer Science, Digital Game Design, and Development.
-        I am currently an L1 Software Engineer for{" "}
+        I am currently a Software Engineer for{" "}
         <Link className="text-[#dd543d]" href={"https://thinkingmachin.es/"}>
           Thinking Machines
         </Link>
