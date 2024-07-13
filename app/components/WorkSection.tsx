@@ -19,7 +19,7 @@ export const WorkSection = () => {
 
       <PlaceWorked
         link="https://theguidon.com/1112/main/"
-        date="2022 ─ PRESENT"
+        date="2022 ─ 2024"
         position="Digital Development Staffer"
         company="The Guidon"
         description="Create interactive elements for the publication's articles, enhancing the online reading experience."
